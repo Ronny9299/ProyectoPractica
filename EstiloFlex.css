@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;	
+	outline: none;
+}
+    
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+/*Block*/
+.HeaderBlock{
+    background-color: whitesmoke;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.WelcomeBlock{
+    background-color: aquamarine;
+    display: flex;    
+    flex-flow: column;
+    width: 100%;
+    height: 75vh;  
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterBlock{
+    background-color:mediumaquamarine;
+    width: 100%;
+    height: 10vh;
+    
+    
+}
+
+
+
+/*Elements*/
+.HeaderBlock__Text{
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.WelcomeBlock__Text1, .WelcomeBlock__Text2, .WelcomeBlock__ButtonLogin{
+    margin: 20px;
+    
+}
+
+.FooterBlock__TextCompany{
+    font-size: 1.5em;
+    text-align: right;
+    
+}
+
+/*Modifier*/
+.HeaderBlock__Text--Small{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.FooterBlock_TextCompany--Small{
+    font-size: 2em;
+}

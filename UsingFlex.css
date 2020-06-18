@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+	text-decoration: none;	
+	outline: none;
+}
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+/*Block*/
+.ContainerFlex{
+    display: flex;
+    flex-direction: column;
+}
+.HeaderBlock{
+    background-color: antiquewhite;
+    
+}
+.WelcomeBlock{
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.FooterBlock{
+    background-color: mediumaquamarine;
+    
+}
+
+/*Elements*/
+.HeaderBlock__Text{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.WelcomeBlock__Text1, .WelcomeBlock__Text2, .WelcomeBlock__ButtonLogin{
+    text-align: center;
+    margin: 15px;
+    
+}
+
+.FooterBlock__TextCompany{
+    font-size: 1.5em;
+    text-align: right;
+}
+
+/*Modifier*/
+.HeaderBlock__Text--Small{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.FooterBlock_TextCompany--Small{
+    font-size: 2em;
+}
+
+/*Responsive*/
+@media screen and (min-width: 320px){
+    
+    .HeaderBlock{
+        width: 100%;
+        height: auto;
+    }
+
+    .WelcomeBlock{
+        width: 100%;
+        height: 80vh;
+    }
+
+    .FooterBlock{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    .HeaderBlock{
+        width: 100%;
+        height: auto;
+    }
+
+    .WelcomeBlock{
+        width: 100%;
+        height: 80vh;
+    }
+
+    .FooterBlock{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .HeaderBlock{
+        width: 100%;
+        height: auto;
+    }
+
+    .WelcomeBlock{
+        width: 100%;
+        height: 85vh;
+    }
+
+    .FooterBlock{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+

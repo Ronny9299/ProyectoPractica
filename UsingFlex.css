@@ -63,6 +63,8 @@ html{
 }
 
 /*Responsive*/
+/* Faltaria solo cambiar tamaños o estilos de tipografia*/
+
 @media screen and (min-width: 320px){
     
     .HeaderBlock{
